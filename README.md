@@ -1,5 +1,5 @@
 # aif-to-flac
-Python script to convert aif audio files to flac audio files. Keeps the original aif files.
+Python script to convert aif audio files to flac audio files. Keeps the original aif files. It should maintain all tags the files have, and it seems to do so from my testing with foobar2000
 
 Requires FFmpeg to run.
 
