@@ -31,4 +31,4 @@ if __name__ == "__main__":
     parser.add_argument('directory', type=str, help="Path to the directory containing AIF files")
     # Parse the arguments
     args = parser.parse_args()
-    batch_aif_to_flac(args.directory)
+    batch_convert_aif_to_flac(args.directory)
